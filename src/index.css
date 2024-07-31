@@ -1,0 +1,24 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+.InnerSidebar{
+  @apply   w-[84%] h-screen bg-white m-[0.2px]  border-2 border-black  overflow-hidden 
+}
+.ProfileDiv{
+    @apply bg-black text-white   font-bold w-[90%] flex justify-center mx-auto h-28 border-white border-b-2
+}
+.SidebarNavlink{
+  @apply  bg-black  text-white  font-bold hover:bg-gray-600 hover:duration-200 w-full  flex  mx-auto py-3 
+}
+.Active{
+  @apply  text-white font-bold  bg-gray-600 w-full flex  mx-auto py-3  items-center 
+}
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+
+.no-scrollbar {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
